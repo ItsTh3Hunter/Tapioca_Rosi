@@ -196,9 +196,14 @@ header p {
   }
 
   #logo_pagina {
+    visibility: hidden; /* esconde o logo no mobile */
     width: 180px;
     max-width: 180px;
     margin-left: 0; /* no mobile normalmente fica em coluna */
     margin-top: 10px;
+  }
+
+  .carousel img {
+    max-height: 500px;
   }
 }
