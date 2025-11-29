@@ -45,8 +45,8 @@ header p {
   margin: 0 auto;
 }
 
-#endereco{
-text-align: center;
+#endereco {
+  text-align: center;
 }
 
 #menu_h2 {
@@ -64,7 +64,8 @@ text-align: center;
 
 #folha {
   background-color: #fff8e1; /* cor da folha (bege) */
-  width: 800px; /* largura da “folha” */
+  max-width: 800px;
+  width: 100%;
   min-height: 90vh;
   border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
@@ -185,4 +186,19 @@ text-align: center;
 
 .btn-instagram:hover {
   background-color: #d63a54;
+}
+
+/* Responsividade Mobile */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #logo_pagina {
+    width: 180px;
+    max-width: 180px;
+    margin-left: 0; /* no mobile normalmente fica em coluna */
+    margin-top: 10px;
+  }
 }
