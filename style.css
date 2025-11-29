@@ -120,7 +120,7 @@ header p {
   margin: 0 auto 30px auto; /* centraliza */
   position: relative;
   overflow: hidden;
-  border-radius: 90px;
+  border-radius: 25px;
 }
 
 .carrossel-track {
@@ -203,7 +203,4 @@ header p {
     margin-top: 10px;
   }
 
-  .carousel img {
-    max-height: 500px;
-  }
 }
